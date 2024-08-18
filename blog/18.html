@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>记我的第一次刷机</title>
+    <meta name="author" content="Alone">
+  </head>
+  <body>
+    <p><b><strong style="font-size: 32px;">记我的第一次刷机<br>
+        </strong></b></p>
+    <p><br>
+    </p>
+    <p><strong>第一章</strong></p>
+    <p>先是adb命令进入fastboot，然后在zui官网上面按照他把那个解锁的sn.img文件刷进去，平板自动重启进入zui（已经清除数据）。<br>
+      再次重新启动到fastboot，打开小黄鱼买的做好的刷机包里面的脚本（真TM无脑刷，打开就行；也不是我不会，联想小新Pad&nbsp;2022资源太少了），脚本最后提示要进入TWRP。<br>
+      我想着，这刷机包里面也没有TWRP啊，于是直接重启，然后直接卡第二屏……<br>
+      可给我急的，关也关不了机，草<br>
+      接下来我问了万能的GPT-4o，他说音量+和音量-都试试，我摸索了一下，我这板子电源+音量-强制关机，电源+音量+进入bootloader（摸索了一小时，中间可给我急的！）<br>
+      OK啊，成功进入bootloader，然后因为没有TWRP，我就进了Recovery，抹去了数据（幸好会一点英文），重启<br>
+      我靠，刷机成功！！！（此时对应上一条动态）<br>
+      <br>
+      <strong>第二章</strong></p>
+    <p>我把先前系统拷下来的软件包全部装了，然后Magisk获取root（重启一次），接下来刷入霞鹜文楷的模块包（还根据它的readme把系统的一个font.xml删掉了），重启之后，喜提卡第二屏的砖！<br>
+      尝试连接电脑，发现电脑识别不到设备！！！竟然她妈的识别不到设备！！！尝试了各种方法，然后我急死了……真的很急……<br>
+      尝试9008，搜了一堆9008的视频（哔哩哔哩），但是电脑识别不到设备啊啊啊<br>
+      <br>
+      因为已经6点了，就没管它，倒头就睡……<br>
+      平板卡在第二屏7小时……<br>
+      <br>
+      <strong>第三章</strong></p>
+    <p>回到家，平板还在第二屏，已经发烫了。<br>
+      我妈不知道怎么关就放在那，<br>
+      关键是还在一直充电<br>
+      <br>
+      6<br>
+      <br>
+      我找闲鱼卖家，他妈的到现在还没回复。草<br>
+      接下来我在哔哩哔哩换了个搜索，卡第二屏救砖，无意间看到一个推荐视频——fastboot识别不到设备<br>
+      啊啊啊这不就是我要找的吗？卧槽，竟然真有这种情况！我昨天搜了半天没搜出来！太惨了太惨了<br>
+      <br>
+      <a href="https://www.bilibili.com/video/BV1do4y1y7n1" target="_blank">BV1do4y1y7n1</a><br>
+      一些弹幕：<br>
+      <em>查了一天的资料，看了各种方法都不得行，看完这个26秒的视频就行了，真的感谢UP<br>
+        感谢up太神了<br>
+        好家伙！up英雄降临！<br>
+        爸爸在上，请受义子一拜</em><br>
+      <br>
+      识别不到设备解决方法：<br>
+      设备管理器&gt;其他设备&gt;Android&gt;更新驱动程序&gt;浏览电脑查找&gt;从计算机上可用驱动列表中选取&gt;通用串行总线设备<br>
+      厂商&gt;WinUSB设备<br>
+      型号&gt;ADB设备<br>
+      <br>
+      识别成功后，我又用它的刷机包刷了一次，清在Recovery里面清楚数据，然后点错了点成取消……<br>
+      直接进到了CPU高通平台的界面！怀疑是9008模式！<br>
+      哈哈哈哈哈哈不慌不慌，我电脑输命令回到了bootloader，重进Recovery，抹去数据，又开机了！！！<br>
+      <br>
+      <strong>第四章</strong></p>
+    <p>第一件事——安装救砖模块<br>
+      <br>
+      未完待续</p>
+    <p><br>
+    </p>
+    <p>2024.8.16</p>
+    <p><br>
+    </p>
+    <p><a href="https://melonchats.github.io/melon/blog.html" target="_top">返回博客主页</a></p>
+    <p></p>
+  </body>
+</html>
